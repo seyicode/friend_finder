@@ -1,15 +1,29 @@
 {
-  "name": "data",
+  "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
-  "main": "friends.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "find some friends",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2"
-  }
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshornung/friendFinder.git"
+  },
+  "author": "James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshornung/friendFinder/issues"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "homepage": "https://github.com/jameshornung/friendFinder#readme"
 }
